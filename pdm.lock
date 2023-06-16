@@ -48,6 +48,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "django-cors-headers"
+version = "4.1.0"
+requires_python = ">=3.7"
+summary = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
+dependencies = [
+    "Django>=3.2",
+]
+
+[[package]]
 name = "djangorestframework"
 version = "3.14.0"
 requires_python = ">=3.6"
@@ -113,7 +122,7 @@ summary = "Provider of IANA time zone data"
 [metadata]
 lock_version = "4.2"
 groups = ["default", "dev"]
-content_hash = "sha256:7ef4b7f1133dcb68661986e04f749fb8d7584f46facda74216325ff59d36b95f"
+content_hash = "sha256:282091dfde5612a2963f51f0cc9f1138b8a707a6aa35c90af6e44715055421ed"
 
 [metadata.files]
 "asgiref 3.6.0" = [
@@ -158,6 +167,10 @@ content_hash = "sha256:7ef4b7f1133dcb68661986e04f749fb8d7584f46facda74216325ff59
 "django 4.1.7" = [
     {url = "https://files.pythonhosted.org/packages/89/86/59e237f7176cfc1544446914fa329fd560bb8fce46be52dd7af5dc7c54f9/Django-4.1.7-py3-none-any.whl", hash = "sha256:f2f431e75adc40039ace496ad3b9f17227022e8b11566f4b363da44c7e44761e"},
     {url = "https://files.pythonhosted.org/packages/9f/a7/07939866241b7e8f8d3bf164b7d6ad428163723e29dd472700f8ab0e5fd5/Django-4.1.7.tar.gz", hash = "sha256:44f714b81c5f190d9d2ddad01a532fe502fa01c4cb8faf1d081f4264ed15dcd8"},
+]
+"django-cors-headers 4.1.0" = [
+    {url = "https://files.pythonhosted.org/packages/05/e8/63cd37e5d08c9b33f3c88804a844693579bbf8fe40b69a2ca29c320c9f38/django_cors_headers-4.1.0.tar.gz", hash = "sha256:36a8d7a6dee6a85f872fe5916cc878a36d0812043866355438dfeda0b20b6b78"},
+    {url = "https://files.pythonhosted.org/packages/a0/2c/7df4f05a02b20b2c22ffc137b5a04f93214bbaf202fd2a29637ac694e0e4/django_cors_headers-4.1.0-py3-none-any.whl", hash = "sha256:88a4bfae24b6404dd0e0640203cb27704a2a57fd546a429e5d821dfa53dd1acf"},
 ]
 "djangorestframework 3.14.0" = [
     {url = "https://files.pythonhosted.org/packages/8e/53/5b2a002c5ebafd60dff1e1945a7d63dee40155830997439a9ba324f0fd50/djangorestframework-3.14.0.tar.gz", hash = "sha256:579a333e6256b09489cbe0a067e66abe55c6595d8926be6b99423786334350c8"},
