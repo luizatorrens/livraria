@@ -37,7 +37,7 @@ SECRET_KEY = 'django-insecure-vawo_qn#kxaf)a=b-#qj1mreo-jse%!)nvlp9ca*vo7=7=bh3v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['livraria-31iy-dev.fl0.io']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
