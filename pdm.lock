@@ -6,7 +6,7 @@ groups = ["default", "dev"]
 cross_platform = true
 static_urls = false
 lock_version = "4.3"
-content_hash = "sha256:4b73a0158bc00f5bfef73f377440e7eab221e0d2aa8c0a2558e19f4b2510fb0e"
+content_hash = "sha256:3e7fe08f64bed36ec41f027c47abdce2bbe862e54b7f535f1018f2954ed3418a"
 
 [[package]]
 name = "asgiref"
